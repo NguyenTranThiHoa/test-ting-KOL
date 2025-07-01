@@ -1,0 +1,36 @@
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.kol-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.kol-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    min-width: 200px;
+}
+
+.kol-card img {
+    width: 100%;
+    height: auto;
+}
+
+.scroll-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.scroll-buttons button {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+}

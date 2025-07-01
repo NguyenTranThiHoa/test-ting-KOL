@@ -1,0 +1,12 @@
+# Ignore node_modules and .next
+FE/node_modules/
+FE/.next/
+FE/.env
+
+# Ignore Go build files
+BE/bin/
+BE/pkg/
+
+# System files
+.DS_Store
+Thumbs.db
